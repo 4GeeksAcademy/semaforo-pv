@@ -9,3 +9,35 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.traffic-light {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  border-radius: 10px;
+  width: 130px;
+  margin: 40px auto;
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+
+.glow {
+  opacity: 1; 
+  box-shadow: 0 0 20px 6px #fff;
+}
